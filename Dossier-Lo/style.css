@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+
+}
+h1 {
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    font-family: roboto;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-size: large;
+}
+div{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50pxls;
+    text-align: center;
+    font-family: roboto;
+    color: #3489;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: length;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+title{
+    text-align: center;
+}
