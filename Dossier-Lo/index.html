@@ -2,25 +2,40 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
     <title>Mon Premier Page Web</title>
   </head>
   <body>
     <header>
         <nav>
+          <section id="1">
       <h1 class="title"><i>BIENVENU DANS MON SITE</i></h1>
         <a href="#acceuil">Acceuil</a>
         <a href="#apropos">Apropos</a>
         <a href="#travail">Travail</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
+        <h2>LIBELLE GOMYCODE</h2>
+        <ol>
+          <li>PEDAGOGIE</li>
+          <li>SACRIFICE</li>
+          <li>DETERMINATION</li>
+          <li>ESPRIT DE GROUPE</li>
+          <li>REUSSITE</li>
+        </ol>
+        <ul>
+          <li>integration</li>
+          <li>decouverte</li>
+          <li>suivi</li>
+        </ul>
+      </section>
       </nav>
     </header>
-    <form>
+    <article>
+      <h2>les avantages d'etre a gomycode</h2>
+    </article>
       Search<input type="text" name="search" />
-      <hr />
-    </form>
-    <section>
+    <section id="2">
+      <figure>
       <video width="320" height="300" controls autoplay>
         <source src="amadou.mp4" type="video/mp4"/>
         please check the video extension
@@ -29,6 +44,7 @@
         <source src="audio khassida.mp3" type="audio/mpeg"/>
         please check the audio extension
       </audio>
+    </figure>
     </section>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit
@@ -36,29 +52,45 @@
       Sunt dignissimos libero hic sint quisquam itaque, tempore, delectus beatae
       soluta, consectetur minus voluptatem tempora debitis!
     </p>
+    <section id="3">
+    <table border="I">
+      <tr>
+        <th>TABLEAU 1</th>
+        <th>TABLEAU 2</th>
+        <th>TABLEAU 3</th>
+        <th>TABLEAU 4</th>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>200</td>
+        <td>300</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>DATA ANALYSTE</td>
+        <td>DEVELOPPER FULL STACK</td>
+        <td>CYBER SECURITIE</td>
+        <td>FINANCIER</td>
+      </tr>
+  </table>
+</section>
+  <hr>
     <form>
-      <label>A Propos</label>
-      <input type="text" name="A Propos" />
-      <label>TRAVAIL</label>
-      <input type="text" name="TRAVAIL" />
-      <label>CV</label>
-      <input type="text" name="CV" />
-      <label>CONTACT</label>
-      <input type="text" name="CONTACT" />
-    </form>
-    <hr />
+      <section id="4">
     <footer>
       <form>
-        <input placeholder="Nom" />
-        <input placeholder="Email" />
-        <textarea
-          name="votre message"
-          id="message"
-          cols="30"
-          rows="10"
-        ></textarea>
-        <button>ENVOYER</button>
+        <label>NOM</label>
+        <input type="text" name="nom" id="placeholder">
+        <label>Mail</label>
+        <input type="text" name="nom" id="placeholder">
+        <label>Number</label>
+        <input type="number" id="numero">
+        <label>Password</label>
+        <input type="Password" name="Password"/>
+        <br>
+        <input type="submit" name="submit">
       </form>
     </footer>
+    </section>
   </body>
 </html>
